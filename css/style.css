@@ -1,0 +1,1333 @@
+body
+{
+    font-family: 'Roboto', sans-serif !important;
+    overflow-x: hidden;
+    margin-bottom: 0 auto;
+}
+
+.sampleIdreesClass{
+  background: #04f717;
+}
+
+.top-bar
+{
+    background-color: black;
+    padding-bottom: 15px;
+    padding-top: 18px;
+}
+
+.top-bar .main .logo i
+{
+    font-size: 40px;
+    color: #25e225;
+}
+
+.top-bar .main .logo a
+{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.top-bar .second
+{
+    padding-top: 8px;
+}
+
+.top-bar .second a
+{
+    color: white;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.top-bar .second a:hover
+{
+    color: #25e225;
+    opacity: o.5s;
+    transition: 0.5s;
+}
+
+.top-bar .second i
+{
+    color: white;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.top-bar .second i:hover
+{
+    color: #25e225;
+    opacity: o.5s;
+    transition: 0.5s;
+}
+
+/* sidemenu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .mobile-nav{
+      display: none;
+  }
+
+  .openbtn, .closebtn{
+      color: #fff;
+      cursor: pointer;
+      font-size: 35px;
+  }
+
+  .openbtn{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+
+  .slider
+  {
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: #8a8a8a;
+  }
+  
+
+  .slider .heading
+  {
+    padding-top: 25%;
+  }
+
+ .slider .heading h1
+  {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0;
+    float: left;
+    padding-right: 30%;
+  }
+
+  .mobile-slider
+  {
+    display: block;
+  }
+
+  .services
+  {
+    text-align: center;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+  .services .seprator
+  {
+    width: 12%;
+    height: 2px;
+    background-color: #a29696;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .services h1
+  {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+  }
+
+  .serve
+  {
+    padding-top: 70px;
+  }
+
+  .services .serve i
+  {
+    border: 1px solid black;
+    border-radius: 50px;
+    color: #57ff01;
+    padding: 20px 20px 20px 20px;
+    font-size: 30px;
+    background-color: #696969;
+  }
+
+  .services .serve i:hover
+  {
+      background-color: coral;
+      transition: 0.5s;
+      opacity: 0.5s;
+  }
+
+  .services .serve h3
+  {
+    padding-top: 20px;
+    font-size: 30px;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  .services .serve p
+  {
+    padding-top: 15px;
+    font-size: 13px;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  .theme
+  {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #3f7f79;
+    padding-top: 160px;
+    padding-bottom: 300px;
+  }
+
+  .theme h1
+  {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+  }
+
+  .buttons
+  {
+    padding-top: 60px;
+  }
+
+  .theme  .buttons .button1
+  {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .theme  .buttons .button1 a
+  {
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 10px 30px 10px 30px;
+    background-color: #04f717;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .theme .buttons .button1 a:hover
+  {
+    background-color: #06f3fc;
+    transition: 0.5s;
+    opacity: 0.5s;
+  }
+
+  .theme  .buttons .button2
+  {
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+
+  .theme .buttons .button2 a
+  {
+    border: 1px solid #06f3fc;
+    border-radius: 4px;
+    padding: 10px 30px 10px 30px;
+    background-color: #06f3fc;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .theme .buttons .button2 a:hover
+  {
+    background-color: #04f717;
+    transition: 0.5s;
+    opacity: 0.5s;
+  }
+
+  .portfolio
+  {
+    background-color: #404040;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+  .portfolio h1
+  {
+    color: white;
+    margin-bottom: 0;
+    font-size: 45px;
+  }
+
+  .portfolio .button3
+  {
+    padding-top: 60px;
+  }
+
+  .portfolio .button3 a
+  {
+    border: 1px solid gray;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .portfolio .button3 a:hover
+  {
+    background-color: #06f3fc;
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+  /* .portfolio .images
+  {
+    padding-top: 70px;
+  } */
+
+  .portfolio .images .quantity
+  {
+    padding-top: 70px;
+  }
+
+  .portfolio .images .quantity-image
+  {
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 1px 6px grey;
+    padding: 0px 60px 0px 60px;
+  }
+
+  .portfolio .load
+  {
+    padding-top: 80px;
+  }
+
+  .portfolio .load h3
+  {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .portfolio .load i
+  {
+    font-size: 35px;
+    padding-top: 15px;
+    color: yellow;
+  }
+
+  .portfolio .load i:hover
+  {
+    color: #06f3fc;
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+  .price
+  {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .price h1
+  {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+  }
+
+  .price .button4
+  {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .price a
+  {
+    border: 1px solid #06fb06;
+    border-radius: 3px;
+    padding: 10px 25px 10px 25px;
+    background-color: #08f508;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .price a:hover
+  {
+    background-color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+  .rates
+  {
+    background-color: #252525;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  .rates h1
+  {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  .rates .seprator
+  {
+    background-color: #929292;
+    width: 9%;
+    height: 3px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .rates p
+  {
+    color: #9a9a9a;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-top: 50px;
+  }
+
+  .rates .service
+  {
+    padding-top: 30px;
+  }
+
+  .rates .service .color1
+  {
+    border: 1px solid #b753d0;
+    border-radius: 4px;
+    background-color: #b753d0;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .rates .service .color1:hover
+  {
+    background-color: #f8ab06;
+    transition: 0.5s;
+    opacity: 0.5s;
+  }
+
+  .rates .service h2
+  {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-top: 30px;
+  }
+
+  .rates .service ul
+  {
+    padding-top: 30px;
+    list-style: none;
+    margin-bottom: 0;
+  }
+
+  .rates .service li a
+  {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 30px;
+  }
+
+  .rates .service li
+  {
+    padding-top: 18px;
+  }
+
+  .rates .service li:hover
+  {
+    background-color: #06f3fc;
+    transition: 0.5s;
+    opacity: 0.5s;
+    width: 100;
+    
+  }
+
+  .rates .service .button5
+  {
+    /* margin-left: 30px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .rates .service .button5 a
+  {
+    border: 1px solid #08da08;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: #0bd00b;
+    text-decoration: none;
+    box-shadow: 3px 3px 1px grey;
+  }
+
+  .rates .service .button5 a:hover
+  {
+    background-color: #06f3fc;
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+  .rates .service .menu
+  {
+    margin-top: 80px;
+    background-color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .rates .service .menu:hover
+  {
+    background-color: rgb(245, 161, 4);
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+  .rates .service .menu h2
+  {
+    color: gray;
+  }
+
+  .rates .service .menu ul
+  {
+    padding-top: 30px;
+    list-style: none;
+    margin-bottom: 0;
+  }
+
+  .rates .service .menu li a
+  {
+    /* padding-left: 30px; */
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+
+  /* .rates .service .menu a
+  {
+    color: black;
+    margin-right: 30px;
+  } */
+
+  .rates .service .menu .button6
+  {
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+
+  .rates .service .menu .button6 a
+  {
+    border: 1px solid #08da08;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: #0bd00b;
+    text-decoration: none;
+    box-shadow: 3px 3px 1px grey;
+  }
+
+  .rates .service .menu .button6 a:hover
+  {
+    background-color: violet
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+  .rates .client
+  {
+    padding-top: 80px;
+  }
+
+  .rates .client h1 
+  {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  .rates .client h1:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 25px;
+    width: 35%;
+    height: 2px;
+    background: #c3c3c3;
+  }
+
+  .rates .client h1:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 25px;
+    width: 35%;
+    height: 2px;
+    background: #c3c3c3;
+  }
+
+  .rates .client .icon
+  {
+    padding-top: 50px;
+  }
+
+  .rates .client .icon i
+  {
+    font-size: 150px;
+    color: #a0a0a0;
+  }
+
+  .rates .client p
+  {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .rates .client h6
+  {
+    color: greenyellow;
+    font-size: 20px;
+    padding-top: 35px;
+    margin-bottom: 0;
+  }
+
+  .gif img 
+  {
+    width: 100%;
+    height: 350px;
+  } 
+
+  .about
+  {
+    text-align: center;
+    background-color: #616161;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .about h1
+  {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+  }
+
+  .about .pic 
+  {
+    padding-top: 100px;
+  }
+
+
+  .about .pic img
+  {
+    width: 100%;
+    height: 250px;
+  }
+
+  .about .pic h1
+  {
+    padding-top: 40px;
+    margin-bottom: 0;
+    color: white;
+    font-size: 30px;
+  }
+
+  .about .pic h3
+  {
+    color: #cacaca;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .about .pic p
+  {
+    color: #c5c5c5;
+    padding-top: 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  .about .skill
+  {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .about .skill h1
+  {
+    color: white;
+    margin-bottom: 0;
+    font-size: 45px;
+  }
+
+  .about .skill .seprator
+  {
+    width: 6%;
+    height: 3px;
+    background-color: #ababab;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .about .skill .meter
+  {
+    padding-top: 100px;
+  }
+
+
+  .about .skill .meter h4
+  {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+
+  .about .skill .meter h6
+  {
+    color: #c3c3c3;
+    margin-bottom: 0;
+    padding-top: 5px;
+    font-size: 15px;
+  }
+
+  #containerPercentage, #containerPercentage1, #containerPercentage2, #containerPercentage3
+   {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+
+  .result
+  {
+    background-blend-mode: soft-light;
+    background-color: #929292;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+
+  .result h1
+  {
+    font-size: 40px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .contact
+  {
+    width: 100%;
+    height: 700px;
+    background-color: #c1c1c1;
+    padding-top: 100px;
+    padding-bottom: 100px
+  }
+
+  .contact h1
+  {
+    text-align: center;
+    color: black;
+    margin-bottom: 0;
+    font-size: 45px;
+
+  }
+
+  .contact .seprator
+  {
+    width: 12%;
+    height: 3px;
+    background-color: gray;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .contact .information
+  {
+    padding-top: 100px;
+  }
+
+  .contact .information .msg h3
+  {
+    font-size: 30px;
+    margin-bottom: 0;
+    color: black;
+  }
+
+  .contact .information .msg .ex
+  {
+    padding-top: 40px;
+  }
+
+  .contact .information .msg .ex input
+  {
+    text-align: center;
+    padding-top: 100px;
+    /* margin-left: 200px; */
+  }
+
+  .contact .information .msg .ex input, textarea 
+  {
+    background-color: #f95c2c;
+    color: #fff;
+    border-radius: 4px;
+    padding: 25px 0 20px 25px;
+    border: 1px solid #fff;
+    width: 100%;
+    height: 90%;
+  }
+
+  .contact .information .msg input::placeholder, .contact textarea::placeholder
+  {
+    color: white;
+  }
+
+  .contact .information .msg .seprator
+  {
+    width: 80%;
+    height: 3px;
+    margin: inherit;
+    display: block;
+    margin-top: 0px;
+    background-color: #9c9c9e;
+  }
+
+  .contact .information .info h3
+  {
+    font-size: 30px;
+    margin-bottom: 0;
+    color: black;
+    padding-left: 40px;
+  }
+
+  .contact .information .info .seprator
+  {
+    width: 90%;
+    height: 3px;
+    background-color: #9c9c9e;
+    margin: initial;
+    display: block;
+    margin-top: 3px;
+    margin-left: 40px;
+  }
+
+  .contact .information .info ul
+  {
+    list-style: none;
+    padding-top: 20px;
+  }
+
+  .contact .information .info li
+  {
+    padding-top: 10px;
+  }
+
+  .contact .information .info li a
+  {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .contact .information .info .button1 
+  {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .contact .information .info .button1 a
+  {
+    color: white;
+    font-size: 18px;
+    border: 1px solid #0bd00b;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background-color: #0bd00b;
+  }
+
+  .contact .information .info .button1 a:hover
+  {
+    background-color: #06f3fc;
+    border: 1px solid #06f3fc;
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+  .connect
+  {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 130px;
+    background-color: #8e8e8e;
+    background-blend-mode: soft-light;
+  }
+
+  .connect h1
+  {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+
+  .connect h5
+  {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+    font-weight: 100;
+  }
+
+  .connect .icon1
+  {
+    margin-top: 30px;
+  }
+
+  .connect .icon1 i
+  {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 20px 20px 20px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+    background-color: black;
+    color: #31ff0d;
+  }
+
+  .connect .icon1 i:hover
+  {
+    background-color: #04eff7;
+    color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+  .mails 
+  {
+    background-color: #333333;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+
+  .mails .msgs h3
+  {
+    color: white;
+    margin-bottom: 0;
+    font-size: 27px;
+  }
+
+  .mails .msgs .seprator
+  {
+    width: 95%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 5px;
+    display: block;
+  }
+
+  .mails .msgs i
+  {
+    color: #0af90a;
+    padding-top: 25px;
+    font-size: 25px;
+  }
+
+  .mails .msgs p
+  {
+    margin-bottom: 0;
+    color: gray;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
+  .mails .msgs p span
+  {
+    color: #04f717;
+  }
+
+
+  .mails .msgs i:hover
+  {
+    color: #04eff7;
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+
+  .mails .post h3
+  {
+    color: white;
+    margin-bottom: 0;
+    font-size: 27px;
+  }
+
+  .mails .post .seprator
+  {
+    width: 95%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 5px;
+    display: block;
+  }
+
+  .mails .post p
+  {
+    margin-bottom: 0;
+    color: gray;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
+  .mails .photo h3
+  {
+    color: white;
+    margin-bottom: 0;
+    font-size: 27px;
+  }
+
+  .mails .photo .seprator
+  {
+    width: 95%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 5px;
+    display: block;
+  }
+
+  .mails .photo img
+  {
+    width: 32%;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 2px;
+  }
+
+
+  .footer
+  {
+    background-color: #3e3e3e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer  .logo2 i
+  {
+    color: #09f509;
+    font-size: 30px;
+  }
+
+  .footer .logo2 a
+  {
+    font-size: 25px;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer .email
+  {
+    padding-top: 5px;
+  }
+
+  .footer .email p
+  {
+    text-align: center;
+    margin-bottom: 0;
+    color: #909090;
+    font-size: 16px;
+  }
+
+  /* .footer .detail
+  {
+
+  }
+
+  .footer .detail ul
+  {
+
+  }
+
+  .footer .detail li a
+  {
+
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  /* responsive */
+
+@media screen and (max-width: 1920px) 
+{
+
+}
+
+@media screen and (max-width: 1366px) 
+{
+
+}
+
+@media screen and (max-width: 768px) 
+{
+  .top-bar .second a 
+  {
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .top-bar .second i
+  {
+    font-size: 15px;
+    padding-left: 15px;
+  }
+  /* .rates .service .menu a 
+  {
+    padding-right: 29px;
+  } */
+
+}
+
+@media screen and (max-width: 600px) 
+{
+  .mobile-nav
+  {
+      display: block;
+  }
+  .top-bar .second
+  {
+      display: none;
+  }
+  .logo
+  {
+      text-align: center;
+  }
+  .slider 
+  {
+    height: 400px;
+  }
+  .slider .heading h1
+   {
+    font-size: 30px;
+    padding-right: 30px;
+  }
+  .slider .heading 
+  {
+    padding-top: 170px;
+  }
+  .services .serve i
+  {
+    margin-top: 90px;
+  }
+  .services .serve p
+  {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+  }
+  .serve
+  {
+    display: block;
+    padding-top: 0;
+  }
+  .theme .buttons .button1
+  {
+    padding-left: 70px;
+    margin-right: 5px;
+  }
+  .theme .buttons .button2
+  {
+    padding-left: 30px;
+    margin-left: 5px;
+  }
+  .portfolio .images .quantity-image
+  {
+    height: 600px;s
+  }
+  .portfolio .load h3
+  {
+    margin-left: 40px;
+  }
+  .portfolio .load i
+  {
+    font-size: 40px;
+    margin-left: 40px;
+  }
+  .price
+  {
+    background-blend-mode: soft-light;
+    background-color: #464646;
+  }
+  .price h1
+  {
+    font-size: 27px;
+    margin-right: 30px;
+  }
+  .rates .service .color1
+  {
+    margin-top: 50px;
+  }
+  .rates p
+  {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .rates .client h1 
+  {
+    font-size: 28px;
+  }
+  .rates .client h1:before
+  {
+    top: 16px;
+    width: 18%;
+    height: 3px;
+  }
+  .rates .client h1::after
+  {
+    top: 16px;
+    width: 18%;
+    height: 3px;
+  }
+  .about .pic img
+  {
+    margin-top: 50px;
+  }
+  .about .pic p 
+  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+
+}
+
+@media screen and (max-width: 414px) 
+{
+  .theme .buttons .button1 
+  {
+    padding-left: 100px;
+    margin-right: 5px;
+  }
+  .theme .buttons .button2
+  {
+    padding-left: 30px;
+  }
+  .price h1
+  {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+
+}
+
+@media screen and (max-width: 375px) 
+{
+  .theme .buttons .button1
+  {
+    padding-left: 70px;
+    margin-right: 5px;
+  }
+  .theme .buttons .button2
+  {
+    padding-left: 30px;
+    margin-left: 5px;
+  }
+}
